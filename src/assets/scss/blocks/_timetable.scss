@@ -1,0 +1,31 @@
+.section__timetable {
+    margin-top: 105px;
+    .timetable__item {
+        background-color: #fff8e6;
+        max-width: 220px;
+        font-family: $font-def;
+        text-align: center;
+        // margin: 0 15px 15px 0;
+        margin: 7px;
+        .timetable__box {
+            padding: 30px 0 20px 0;
+            .timetable__date {
+                color: #4b4b4b;
+                font-size: 14px;
+            }
+            .timetable__title {
+                font-size: 18px;
+                font-weight: 700;
+                padding: 15px 0;
+            }
+            .timetable__link {
+                color: #5a56af;
+                font-size: 12px;
+                text-decoration: underline;
+            }
+            .timetable__btn {
+                margin-top: 15px;
+            }
+        }
+    }
+}

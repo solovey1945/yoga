@@ -1,0 +1,19 @@
+/* Cause */
+.section__cause {
+    color: $black;
+    margin: 80px 0 70px 0;
+    text-align: center;
+    .cause__features {
+        .cause__box {
+            padding: 15px 25px;
+            max-width: 300px;
+            .cause__desc {
+                font-family: $font-muller-medium;
+                font-size: 16px;
+                font-weight: 400;
+                word-break: break-word;
+                margin-top: 20px;
+            }
+        }
+    }
+}

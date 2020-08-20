@@ -1,0 +1,43 @@
+/* Slider */
+.slider {
+    color: $white;
+    .slide {
+        position: relative;
+        text-align: center;
+        cursor: move;
+        .wrap {
+            position: relative;
+            .img {
+                filter: brightness(50%);
+                max-width: 940px;
+                height: 480px;
+                width: 100%;
+            }
+            .text {               
+                position: absolute;
+                top: 25px;
+                right: 25px;
+                bottom: 25px;
+                left: 25px;
+                border: 1px solid #fff;
+                content: '';
+                .caption {
+                    margin: 13% 0 55px 0;
+                    transition: transform 0.35s;
+                    transform: translate3d(0,100%,0);
+                    font-family: $font-muller-medium;
+                    font-size: 26px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+                .desc {
+                    font-family: $font-def;
+                    font-size: 18px;
+                    font-weight: 400;
+                    max-width: 500px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/* -Works- */
+
+.section__works {
+    padding: 80px 0;
+    text-align: center;
+
+    .works__subtitle {
+        color: #3f3f3f;
+        font-style: italic;
+        font-size: 18px;
+        margin: -37px 0 70px 0;
+    }
+
+    .works__item {
+        position: relative;
+        &-text {
+            color: #3f3f3f;
+            font-size: 13px;
+            margin-top: 21px;
+
+            .send-request {
+                display: block;
+                color: #ea7231;
+                text-decoration: underline;
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+/* --Works-- */

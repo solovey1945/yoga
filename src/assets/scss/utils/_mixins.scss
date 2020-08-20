@@ -1,0 +1,67 @@
+@mixin hoverbg($color, $px) {
+    background-color: $color !important;
+    border: $px solid $color;
+}
+
+@mixin title() {
+    font-family: $font-muller-medium;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    &::after {
+        content: '';
+        display: block;
+        height: 6px;
+        width: 118px;
+        background-image: url(../img/waves.png);
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}
+
+@mixin btn($color) {
+    color: $color;
+    font-family: $font-muller-bold;
+    font-size: 12px;
+    padding: 15px 32px;
+    border: 2px solid $color;
+    transition: all .2s;
+    text-transform: uppercase;
+    &:hover {
+        @include hoverbg($color, 2px);
+        color: $white;
+    }
+}
+@mixin blockList($url, $width, $height) {
+    .block-list {
+        color: #4e4e4e;
+        position: relative;
+
+        .block-item {
+            margin: 0 0 15px 38px;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: '';
+                background-image: url($url);
+                width: $width;
+                height: $height;
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+}
+
+@mixin socials($color, $color-two) {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $color-two;
+    border-radius: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 10px;
+    color: $color-two;
+    transition: all 0.3s ease 0s;
+}

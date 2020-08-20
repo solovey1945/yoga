@@ -1,0 +1,41 @@
+/* Tour */
+.section__tour {
+    padding: 50px 0;
+    color: $black;
+    background-color: $bg-section;
+    font-family: $font-muller-light;
+    .tour__content {
+        padding: 45px 0;
+        .tour__title {
+            font-family: $font-muller-medium;
+            font-size: 30px;
+            font-weight: 400;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 48px;
+                text-transform: uppercase;
+                margin-top: 15px;
+            }
+        }
+        .tour__desc {
+            max-width: 392px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 45px;
+        }
+    }
+    .tour__icons {
+        margin-top: 40px;
+        .tour__box {
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 23px;
+            line-height: 29px;
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+}

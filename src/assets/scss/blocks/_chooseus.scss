@@ -1,0 +1,19 @@
+.section__chooseus {
+    background-color: $bg-section;
+    padding: 80px 0;
+    .chooseus__item {
+        text-align: center;
+        margin-bottom: 57px;
+        &-title {
+            font-family: $font-muller-bold;
+            font-size: 18px;
+            margin: 38px 0 20px 0;
+        }
+        &-text {
+            font-family: $font-muller-light;
+            font-size: 16px;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+    }
+}

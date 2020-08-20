@@ -1,0 +1,224 @@
+@media screen and (max-width: 1024px) {
+    .slider {
+        .slide {
+            .wrap {
+                .img {
+                    max-width: 1024px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 814px) {
+
+    .section__ayurveda {
+        .ayurveda__center {
+            margin-left: 15px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .section__works {
+        .works__item {
+            max-width: 255px;
+            margin-top: 20px;
+        }
+    }
+
+    .section__guarantee {
+        .docs-wrap__item {
+            margin-top: 20px;
+        }
+    }
+
+    .instructors__about {
+        padding: 25px 10px !important;
+        .about-left {
+            &__name {
+                font-size: 25px !important;
+            }
+            &__jobs {
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header__inner {
+        .header__title {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .header__subtitle {
+            font-size: 12px;
+        }
+        .header__place {
+            font-size: 12px;
+        }
+        .header__button {
+            .header__btn {
+                font-size: 13px;
+                padding: 18px 50px;
+            }
+        }
+    }
+    .instructors__about {
+        position: sticky !important;
+        
+    }
+
+    .tour__img img {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .timetable__box {
+        .timetable__date {
+            font-size: 12px;
+        }
+        .timetable__title {
+            font-size: 15px;
+            padding: 12px 0;
+        }
+
+        .timetable__btn {
+            font-size: 12px;
+            padding: 12px 10px;
+        }
+    }
+
+    .slider {
+        .slide {
+            .wrap {
+                .img {
+                    height: 365px;
+                }
+                .text {
+                    .caption {
+                        margin: 25% 0 65px 0;
+                        font-size: 20px;
+                    }
+                    .desc {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ayurveda__programs {
+        &-title {
+            font-family: $font-muller-medium;
+            font-size: 24px;
+        }
+        &-item {
+            .ayurveda__text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .section__rewiews {
+        .rewiews__slider-item {
+            flex-direction: column;
+            img {
+                margin: 0 auto;
+            }
+        }
+        .slider-item__name {
+            text-align: center;
+            padding-top: 15px;
+        }
+        .slider-item__social {
+            text-align: center;
+        }
+    }
+
+    .section__guarantee .guarantee__docs-title {
+        font-size: 19px;
+    }
+
+    .section__contacts {
+        .contacts__tel-link {
+            font-size: 23px;
+        }
+        .contacts__offices-item {
+            img {
+                max-width: 140px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .section__cost {
+        .cost__wrap {
+            .block-one__top {
+                .cost__row {
+                    line-height: 25px;
+                    h2 {
+                        font-size: 14px;
+                    }
+                    .price {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .block-one__bottom {
+                p {
+                    font-size: 13px;
+                }
+            }
+            .block-three__text {
+                font-size: 15px
+            }
+        }
+        .block-list {
+            font-size: 15px;
+        }
+
+    }
+
+    .footer__copy {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .section__contacts .contacts__tel-link {
+        font-size: 18px;
+    }
+
+    .header__top {
+        .header__phone {
+            font-size: 15px;
+            .phone-link {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .header__btn {
+        padding: 20px 40px !important;
+    }
+}
+
+@media screen and (max-height: 375px) {
+    .section__tour {
+        .tour__inner {
+            max-width: 65%;
+            margin: 0 auto;
+        }
+    }
+}

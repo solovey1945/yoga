@@ -1,0 +1,78 @@
+/* Header */
+.header {
+    background-image: url(../img/header-bg.webp);
+    background-repeat: no-repeat;
+    color: $white;
+    background-size: cover;
+    background-position: center top;
+    &__top {
+        margin-top: 20px;
+        .header__phone {
+            font-family: $font-def;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: end;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            .phone-link {
+                font-family: $font-muller-bold;
+                font-size: 20px;
+                line-height: 18px;
+                color: $white;
+                float: right;
+                padding-top: 10px;
+            }
+        }
+    }
+    &__inner {
+        font-family: $font-def;
+        text-align: center;
+        margin: 180px 0 100px 0;
+        .header__title {
+            font-family: $font-muller-medium;
+            font-size: 60px;
+            text-transform: uppercase;
+            margin-bottom: 45px;
+        }
+        .header__subtitle {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .header__place {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    &__button {
+        .header__btn {
+            display: block;
+            font-family: $font-muller-bold;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            border: 2px solid $white;
+            padding: 22px 73px;
+            background-color: transparent;
+            color: $white;
+            margin: 0 auto;
+            transition: all .2s;
+            &:hover {
+                @include hoverbg($orange, 2px)
+            }
+        }
+    }
+    &__socials {
+        display: flex;
+        justify-content: center;
+
+        margin: 155px 0 25px 0;
+        .header__social {
+            @include socials($orange, $white);
+            &:hover {
+                @include hoverbg($orange, 1px);
+            }
+        }
+    }
+}

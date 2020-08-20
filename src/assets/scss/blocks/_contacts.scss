@@ -1,0 +1,45 @@
+.section__contacts {
+    padding: 80px 0;
+    background-color: $bg-section;
+    font-family: $font-muller-medium;
+    .contacts__title {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 16px;
+        margin: 28px 0 18px 0;
+    }
+    .contacts__social {
+        ul {
+            display: flex;
+        }
+        &-item {
+            @include socials($orange, $orange);
+            &:hover {
+                @include hoverbg($orange, 1px);
+                color: $white;
+            }
+        }
+    }
+    .contacts__tel {
+        font-family: $font-muller-light;
+        font-style: italic;
+        font-size: 12px;
+        &-link {
+            font-family: $font-muller-bold;
+            font-size: 28px;
+            color: $black;
+            display: block;
+            margin-top: 7px;
+            font-style: normal;
+        }
+    }
+    .contacts__offices {
+        &-item {
+            p {
+                font-size: 11px;
+                padding-top: 15px;
+            }
+        }
+    }
+}

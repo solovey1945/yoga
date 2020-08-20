@@ -1,0 +1,55 @@
+@import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/fonts';
+@import 'utils/nullstyle';
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    // overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    max-width: 940px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: $font-def;
+}
+
+.title {
+    @include title();
+}
+
+.btn {
+    @include btn($orange-darken);
+}
+
+@import 'blocks/slider';
+@import 'blocks/popup';
+@import 'blocks/scrollbar';
+@import 'blocks/header';
+@import 'blocks/tour';
+@import 'blocks/cause';
+@import 'blocks/travel';
+@import 'blocks/timetable';
+@import 'blocks/program';
+@import 'blocks/ayurveda';
+@import 'blocks/ayurveda';
+@import 'blocks/instructors';
+@import 'blocks/reviews';
+@import 'blocks/chooseus';
+@import 'blocks/works';
+@import 'blocks/cost';
+@import 'blocks/guarantee';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'utils/media';
+
+
+
+
